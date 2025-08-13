@@ -37,6 +37,7 @@ local info = "#1A8C9B"
 local warn = "#FFA630"
 local error = "#F71735"
 
+
 -- git
 local git_add_fg = "#9FDACC"
 local git_add_bg = "#1E3A34"
@@ -64,7 +65,7 @@ hl["Changed"] = { fg = git_change_fg, bg = git_change_bg }
 hl["Removed"] = { fg = git_delete_fg, bg = git_delete_bg }
 
 -- elements
-hl["ColorColumn"] = {}
+hl["ColorColumn"] = { bg = normal_bg_accent }
 hl["Conceal"] = { fg = "fg" }
 hl["CurSearch"] = { fg = normal_bg, bg = number }
 hl["Cursor"] = { bg = cursor }

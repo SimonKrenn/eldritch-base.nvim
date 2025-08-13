@@ -17,7 +17,7 @@ hl["Changed"] = { fg = c.git_change_fg, bg = c.git_change_bg }
 hl["Removed"] = { fg = c.git_delete_fg, bg = c.git_delete_bg }
 
 -- elements
-hl["ColorColumn"] = {}
+hl["ColorColumn"] = { bg = c.normal_bg_accent }
 hl["Conceal"] = { fg = "fg" }
 hl["CurSearch"] = { fg = c.normal_bg, bg = c.number }
 hl["Cursor"] = { bg = c.cursor }

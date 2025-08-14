@@ -4,7 +4,10 @@
 <sub><i>You have entered deeply into the infested starport. But something is wrong.</i></sub>
 </p>
 
-A colorscheme inspired by [Techbase-style](https://doomwiki.org/wiki/Techbase_map) Doom maps, 1990's technology and conceptions of future technologies, and sci-fi horror, and cosmic horror.
+A colorscheme inspired by 
+- Doom, particulary [Techbase-style](https://doomwiki.org/wiki/Techbase_map) maps, 
+- 1990's technology and conceptions of future technologies, and 
+- sci-fi and cosmic horror.
 
 ## Screenshots
 
@@ -78,7 +81,8 @@ A template for using the plugin with non-default options:
 
 Matching color configurations are available for:
 
+- Tmux
 - Kitty
 - iTerm2
 
-Please see their respective documentation for how to use these color configurations.
+Please see those tools' respective documentation for how to use these color configurations.

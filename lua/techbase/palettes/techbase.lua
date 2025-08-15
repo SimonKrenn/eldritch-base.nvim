@@ -1,14 +1,14 @@
 local colorscheme = {}	
 
 if vim.o.background == 'light' then
-colorscheme.normal_fg = "#CCD5E5"
+colorscheme.normal_fg = "#191d23"
   colorscheme.float_fg = "#D6DDEA"
   colorscheme.nontext_fg = "#363848"
   colorscheme.comment_fg = "#474B65"
   colorscheme.quote_fg = "#7E8193"
 
   -- background
-  colorscheme.normal_bg = "#191d23"
+  colorscheme.normal_bg = "#CCD5E5"
   colorscheme.panel_bg = "#1B1F25"
   colorscheme.float_bg = "#1C2127"
   colorscheme.normal_bg_alt = "#20252E"

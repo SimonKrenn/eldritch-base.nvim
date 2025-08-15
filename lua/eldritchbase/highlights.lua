@@ -1,5 +1,5 @@
-local tint = require("techbase.utils").tint
-local c = require("techbase.palettes.techbase")
+local tint = require("eldritchbase.utils").tint
+local c = require("eldritchbase.palettes.eldritchbase")
 
 local hl = {}
 

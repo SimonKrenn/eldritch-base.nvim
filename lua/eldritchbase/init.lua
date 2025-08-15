@@ -34,8 +34,8 @@ function M.setup(opts)
 end
 
 function M.load()
-  local c = vim.deepcopy(require("techbase.palettes.techbase"))
-  local groups = vim.deepcopy(require("techbase.highlights"))
+  local c = vim.deepcopy(require("eldritchbase.palettes.eldritchbase"))
+  local groups = vim.deepcopy(require("eldritchbase.highlights"))
 
   groups["Comment"].italic = M.opts.italic_comments
 
@@ -56,7 +56,7 @@ function M.load()
 
   for name, enabled in pairs(M.opts.plugin_support) do
     if enabled then
-      local req = "techbase.plugins." .. name
+      local req = "eldritchbase.plugins." .. name
       local mod = require(req)
       mod(c, groups)
     end
